@@ -1,0 +1,131 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font and Body Styling */
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #f8f8f8; /* Light background color */
+    color: #333; /* Dark text color */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #6fa3ef; /* Header color */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Navigation Styling */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #4a90e2;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #3c7cc1; /* Hover effect */
+    border-radius: 5px;
+}
+
+/* Active Link */
+nav ul li a.active {
+    background-color: #3c7cc1;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+/* Figure for Image */
+figure {
+    float: right;
+    margin-left: 20px;
+    width: 40%;
+    height: auto;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Gallery Styles */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery figure {
+    width: 200px;
+    margin: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 1rem;
+}
+
+
+
